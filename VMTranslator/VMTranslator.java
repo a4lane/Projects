@@ -3,8 +3,8 @@ public class VMTranslator {
 
 
     public static void main(String[] args) {
-        Parser parser = new Parser("src/com/edu/miracosta/StaticTest.vm");
-        CodeWriter codeWriter = new CodeWriter("src/com/edu/miracosta/StaticTest.asm");
+        Parser parser = new Parser("./StaticTest.vm");
+        CodeWriter codeWriter = new CodeWriter("./StaticTest.asm");
 
         while (parser.hasMoreCommands()){
             parser.advance();
