@@ -111,8 +111,8 @@ public class Assembler {
 
     public static void main(String args[]) throws IOException {
         SymbolTable symbolTable = new SymbolTable();
-        firstPass("src/com/edu/miracosta/Rect.asm", symbolTable);
-        secondPass("src/com/edu/miracosta/Rect.asm", symbolTable, "src/com/edu/miracosta/Rect.hack");
+        firstPass("./Rect.asm", symbolTable);
+        secondPass("./Rect.asm", symbolTable, "./Rect.hack");
 
 
     }
